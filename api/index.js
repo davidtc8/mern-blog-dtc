@@ -9,7 +9,7 @@ mongoose
         process.env.MONGODBPASSWORD
     )
     .then(() => {
-        console.log('Shany mi novia y la base de datos uwu');
+        console.log('Database is up and running');
     }).catch(err => {
         console.log(err)
     });
